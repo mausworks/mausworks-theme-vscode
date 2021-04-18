@@ -1,0 +1,31 @@
+{
+  "name": "mausworks-theme-vscode",
+  "displayName": "Mausworks Theme",
+  "description": "A dark, colorful and tasty theme for VSCode",
+  "publisher": "mausworks",
+  "version": "0.0.1",
+  "icon": "./logo.png",
+  "author": {
+    "name": "Rasmus Wennerström",
+    "url": "https://github.com/mausworks"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mausworks/mausworks-theme-vscode"
+  },
+  "engines": {
+    "vscode": "^1.55.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Mausworks Night",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Mausworks Night-color-theme.json"
+      }
+    ]
+  }
+}
