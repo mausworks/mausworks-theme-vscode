@@ -17,7 +17,7 @@
     "editorBracketMatch.border": "#FF1F93",
     "editor.findMatchHighlightBackground": "#ffff2266",
     "editor.findMatchHighlightBorder": "#FFFF22",
-    "editorLineNumber.foreground": "#effffd33",
+    "editorLineNumber.foreground": "#effffd38",
     "editorLineNumber.activeForeground": "#effffde6",
     "sideBarSectionHeader.background": "#11111188",
     "tree.indentGuidesStroke": "#0000",
@@ -85,7 +85,7 @@
     "panel.dropBorder": "#0000",
     "minimapSlider.activeBackground": "#FF1F9377",
     "contrastBorder": "#0000",
-    "focusBorder": "#effffd33",
+    "focusBorder": "#effffd38",
     /* Tabs */
     "tab.unfocusedActiveBorder": "#FF1F93",
     "tab.unfocusedActiveBackground": "#0b0b0b",
@@ -162,7 +162,7 @@
     "gitDecoration.conflictingResourceForeground": "#BA12ED",
     "gitDecoration.addedResourceForeground": "#3BD7E0",
     "gitDecoration.untrackedResourceForeground": "#3BD7E0",
-    "gitDecoration.ignoredResourceForeground": "#effffd33",
+    "gitDecoration.ignoredResourceForeground": "#effffd38",
     "gitDecoration.stageDeletedResourceForeground": "#BF0D24",
     "gitDecoration.renamedResourceForeground": "#FFFF22",
     "gitDecoration.stageModifiedResourceForeground": "#3BD7E0",
@@ -332,7 +332,7 @@
       "name": "Comment",
       "scope": ["comment", "punctuation.definition.comment"],
       "settings": {
-        "foreground": "#effffd33"
+        "foreground": "#effffd38"
       }
     },
     {
@@ -394,7 +394,7 @@
         "punctuation.definition.tag.end.html"
       ],
       "settings": {
-        "foreground": "#effffd33",
+        "foreground": "#effffd38",
         "fontStyle": "bold"
       }
     },
