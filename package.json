@@ -3,8 +3,8 @@
   "displayName": "Mausworks Theme",
   "description": "A dark, colorful and tasty theme for VSCode",
   "publisher": "mausworks",
-  "version": "0.0.1",
-  "icon": "./logo.png",
+  "version": "0.0.2",
+  "icon": "logo.png",
   "author": {
     "name": "Rasmus Wennerström",
     "url": "https://github.com/mausworks"
