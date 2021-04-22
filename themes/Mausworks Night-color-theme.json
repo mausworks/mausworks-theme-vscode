@@ -606,7 +606,10 @@
     },
     {
       "name": "CSS Pseudo Selector",
-      "scope": ["entity.other.attribute-name.pseudo-element"],
+      "scope": [
+        "entity.other.attribute-name.pseudo-element",
+        "entity.other.attribute-name.pseudo-class"
+      ],
       "settings": {
         "fontStyle": "italic"
       }
