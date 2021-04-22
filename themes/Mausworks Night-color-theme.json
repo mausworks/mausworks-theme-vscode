@@ -352,7 +352,8 @@
       "name": "Function call parenthesis",
       "scope": [
         "punctuation.definition.arguments.begin",
-        "punctuation.definition.arguments.end"
+        "punctuation.definition.arguments.end",
+        "meta.block"
       ],
       "settings": {
         "foreground": "#effffd"
@@ -377,8 +378,8 @@
       "scope": [
         "keyword.control",
         "constant.other.color",
+        "punctuation.definition.keyword",
         "punctuation.separator.inheritance.php",
-        "punctuation.section.embedded",
         "keyword.other.template",
         "keyword.other.substitution"
       ],
@@ -401,7 +402,7 @@
       "name": "Tag",
       "scope": ["entity.name.tag", "meta.tag.sgml"],
       "settings": {
-        "foreground": "#48F9BB"
+        "foreground": "#effffde9"
       }
     },
     {
@@ -556,18 +557,7 @@
       "name": "Attributes",
       "scope": ["entity.other.attribute-name"],
       "settings": {
-        "foreground": "#effffde9"
-      }
-    },
-    {
-      "name": "HTML Attributes",
-      "scope": [
-        "text.html.basic entity.other.attribute-name.html",
-        "text.html.basic entity.other.attribute-name"
-      ],
-      "settings": {
-        "fontStyle": "italic",
-        "foreground": "#FFCB6B"
+        "foreground": "#effffd58"
       }
     },
     /* StyleSheets (CSS, SASS, Stylus ...) */
