@@ -401,7 +401,7 @@
       "name": "Tag",
       "scope": ["entity.name.tag", "meta.tag.sgml"],
       "settings": {
-        "foreground": "#effffde6"
+        "foreground": "#48F9BB"
       }
     },
     {
