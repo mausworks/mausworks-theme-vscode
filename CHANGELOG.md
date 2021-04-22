@@ -2,6 +2,11 @@
 
 All notable changes to the extension will be documented in this file.
 
+## [0.0.4]
+
+- Normalize inherited class colors [#8](https://github.com/mausworks/mausworks-theme-vscode/pull/8)
+
+
 ## [0.0.3]
 
 - Make comment color (and things of the same shade) a bit lighter
