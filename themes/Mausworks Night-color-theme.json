@@ -75,7 +75,7 @@
     "activityBar.activeBorder": "#FF1F93",
     "activityBar.activeFocusBorder": "#0000",
     "activityBar.border": "#0000",
-    "activityBar.inactiveForeground": "#effffd57",
+    "activityBar.inactiveForeground": "#effffd58",
     /* Badges ("pills") */
     "badge.background": "#FF1F93",
     "badge.foreground": "#080808",
@@ -166,7 +166,7 @@
     "gitDecoration.stageDeletedResourceForeground": "#BF0D24",
     "gitDecoration.renamedResourceForeground": "#FFFF22",
     "gitDecoration.stageModifiedResourceForeground": "#3BD7E0",
-    "gitDecoration.submoduleResourceForeground": "#effffd57",
+    "gitDecoration.submoduleResourceForeground": "#effffd58",
     /* Notifications */
     "notifications.background": "#000",
     "notifications.border": "#0000",
@@ -277,7 +277,7 @@
     "testing.iconPassed": "#37CE95",
     "testing.iconQueued": "#1088EA",
     "testing.iconSkipped": "#FFFF22",
-    "testing.iconUnset": "#effffd57",
+    "testing.iconUnset": "#effffd58",
     "testing.message.error.decorationForeground": "#BF0D24",
     "testing.message.error.lineBackground": "#BF0D2444",
     "testing.message.hint.decorationForeground": "#1088EA",
@@ -291,8 +291,8 @@
     /* Extension view */
     "extensionIcon.starForeground": "#FFFF22",
     /* Debug tokens (used in e.g the watch) */
-    "debugTokenExpression.value": "#effffd57",
-    "debugTokenExpression.boolean": "#effffd57",
+    "debugTokenExpression.value": "#effffd58",
+    "debugTokenExpression.boolean": "#effffd58",
     "debugTokenExpression.error": "#BF0D24",
     /* Problems */
     "problemsErrorIcon.foreground": "#BF0D24",
@@ -436,14 +436,14 @@
       "name": "New operator",
       "scope": "keyword.operator.new",
       "settings": {
-        "foreground": "#effffd57"
+        "foreground": "#effffd58"
       }
     },
     {
       "name": "Try, catch and throw",
       "scope": "keyword.control.trycatch",
       "settings": {
-        "foreground": "#effffd57",
+        "foreground": "#effffd58",
         "fontStyle": "italic"
       }
     },
@@ -465,7 +465,7 @@
       "name": "Language Constant",
       "scope": ["constant.language"],
       "settings": {
-        "foreground": "#effffd57",
+        "foreground": "#effffd58",
         "fontStyle": "italic"
       }
     },
@@ -683,7 +683,7 @@
         "markup.fenced_code.block.markdown"
       ],
       "settings": {
-        "foreground": "#effffd57",
+        "foreground": "#effffd58",
         "fontStyle": ""
       }
     },
@@ -726,7 +726,7 @@
       "name": "Escape Characters",
       "scope": ["constant.character.escape"],
       "settings": {
-        "foreground": "#effffd57"
+        "foreground": "#effffd58"
       }
     },
     {
