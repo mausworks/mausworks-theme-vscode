@@ -340,7 +340,9 @@
       "scope": [
         "variable",
         "string constant.other.placeholder",
-        "meta.function-call.arguments"
+        "meta.function-call.arguments",
+        "meta.object.member",
+        "meta.directive"
       ],
       "settings": {
         "foreground": "#effffd"
@@ -375,27 +377,24 @@
       "scope": [
         "keyword.control",
         "constant.other.color",
-        "meta.tag",
-        "punctuation.definition.tag",
         "punctuation.separator.inheritance.php",
         "punctuation.section.embedded",
         "keyword.other.template",
         "keyword.other.substitution"
       ],
       "settings": {
-        "foreground": "#effffd52"
+        "foreground": "#effffd58"
       }
     },
     {
       "name": "HTML brackets/braces",
       "scope": [
         "punctuation.definition.tag.html",
-        "punctuation.definition.tag.begin.html",
-        "punctuation.definition.tag.end.html"
+        "punctuation.definition.tag.begin",
+        "punctuation.definition.tag.end"
       ],
       "settings": {
-        "foreground": "#effffd38",
-        "fontStyle": "bold"
+        "foreground": "#effffd58"
       }
     },
     {
@@ -561,7 +560,7 @@
       "name": "Attributes",
       "scope": ["entity.other.attribute-name"],
       "settings": {
-        "foreground": "#effffd52"
+        "foreground": "#effffde9"
       }
     },
     {
