@@ -75,7 +75,7 @@
     "activityBar.activeBorder": "#FF1F93",
     "activityBar.activeFocusBorder": "#0000",
     "activityBar.border": "#0000",
-    "activityBar.inactiveForeground": "#effffd57",
+    "activityBar.inactiveForeground": "#effffd58",
     /* Badges ("pills") */
     "badge.background": "#FF1F93",
     "badge.foreground": "#080808",
@@ -102,7 +102,7 @@
     "tab.inactiveModifiedBorder": "#0000",
     "tab.unfocusedHoverBackground": "#080808",
     "tab.unfocusedInactiveBackground": "#080808",
-    "tab.unfocusedInactiveForeground": "#effffd66",
+    "tab.unfocusedInactiveForeground": "#effffd58",
     "tab.unfocusedHoverForeground": "#effffd",
     "tab.unfocusedActiveForeground": "#effffd",
     "tab.lastPinnedBorder": "#FF1F93",
@@ -110,7 +110,7 @@
     "tab.hoverForeground": "#effffd",
     "tab.inactiveBackground": "#0b0b0b",
     "tab.activeForeground": "#effffd",
-    "tab.inactiveForeground": "#effffd66",
+    "tab.inactiveForeground": "#effffd58",
     "editorGroupHeader.tabsBackground": "#080808",
     /* Quick input (CTRL+P) */
     "quickInput.background": "#080808",
@@ -166,7 +166,7 @@
     "gitDecoration.stageDeletedResourceForeground": "#BF0D24",
     "gitDecoration.renamedResourceForeground": "#FFFF22",
     "gitDecoration.stageModifiedResourceForeground": "#3BD7E0",
-    "gitDecoration.submoduleResourceForeground": "#effffd57",
+    "gitDecoration.submoduleResourceForeground": "#effffd58",
     /* Notifications */
     "notifications.background": "#000",
     "notifications.border": "#0000",
@@ -277,7 +277,7 @@
     "testing.iconPassed": "#37CE95",
     "testing.iconQueued": "#1088EA",
     "testing.iconSkipped": "#FFFF22",
-    "testing.iconUnset": "#effffd57",
+    "testing.iconUnset": "#effffd58",
     "testing.message.error.decorationForeground": "#BF0D24",
     "testing.message.error.lineBackground": "#BF0D2444",
     "testing.message.hint.decorationForeground": "#1088EA",
@@ -291,8 +291,8 @@
     /* Extension view */
     "extensionIcon.starForeground": "#FFFF22",
     /* Debug tokens (used in e.g the watch) */
-    "debugTokenExpression.value": "#effffd57",
-    "debugTokenExpression.boolean": "#effffd57",
+    "debugTokenExpression.value": "#effffd58",
+    "debugTokenExpression.boolean": "#effffd58",
     "debugTokenExpression.error": "#BF0D24",
     /* Problems */
     "problemsErrorIcon.foreground": "#BF0D24",
@@ -340,7 +340,9 @@
       "scope": [
         "variable",
         "string constant.other.placeholder",
-        "meta.function-call.arguments"
+        "meta.function-call.arguments",
+        "meta.object.member",
+        "meta.directive"
       ],
       "settings": {
         "foreground": "#effffd"
@@ -350,7 +352,8 @@
       "name": "Function call parenthesis",
       "scope": [
         "punctuation.definition.arguments.begin",
-        "punctuation.definition.arguments.end"
+        "punctuation.definition.arguments.end",
+        "meta.block"
       ],
       "settings": {
         "foreground": "#effffd"
@@ -375,38 +378,31 @@
       "scope": [
         "keyword.control",
         "constant.other.color",
-        "meta.tag",
-        "punctuation.definition.tag",
+        "punctuation.definition.keyword",
         "punctuation.separator.inheritance.php",
-        "punctuation.section.embedded",
         "keyword.other.template",
         "keyword.other.substitution"
       ],
       "settings": {
-        "foreground": "#effffd52"
+        "foreground": "#effffd58"
       }
     },
     {
       "name": "HTML brackets/braces",
       "scope": [
         "punctuation.definition.tag.html",
-        "punctuation.definition.tag.begin.html",
-        "punctuation.definition.tag.end.html"
+        "punctuation.definition.tag.begin",
+        "punctuation.definition.tag.end"
       ],
       "settings": {
-        "foreground": "#effffd38",
-        "fontStyle": "bold"
+        "foreground": "#effffd58"
       }
     },
     {
       "name": "Tag",
-      "scope": [
-        "entity.name.tag",
-        "meta.tag.sgml",
-        "markup.deleted.git_gutter"
-      ],
+      "scope": ["entity.name.tag", "meta.tag.sgml"],
       "settings": {
-        "foreground": "#effffde6"
+        "foreground": "#effffde9"
       }
     },
     {
@@ -440,14 +436,14 @@
       "name": "New operator",
       "scope": "keyword.operator.new",
       "settings": {
-        "foreground": "#effffd57"
+        "foreground": "#effffd58"
       }
     },
     {
       "name": "Try, catch and throw",
       "scope": "keyword.control.trycatch",
       "settings": {
-        "foreground": "#effffd57",
+        "foreground": "#effffd58",
         "fontStyle": "italic"
       }
     },
@@ -469,7 +465,7 @@
       "name": "Language Constant",
       "scope": ["constant.language"],
       "settings": {
-        "foreground": "#effffd57",
+        "foreground": "#effffd58",
         "fontStyle": "italic"
       }
     },
@@ -490,7 +486,7 @@
         "storage.type"
       ],
       "settings": {
-        "foreground": "#effffd52"
+        "foreground": "#effffd58"
       }
     },
     {
@@ -515,7 +511,7 @@
         "meta.attribute punctuation.brackets"
       ],
       "settings": {
-        "foreground": "#effffd52"
+        "foreground": "#effffd58"
       }
     },
     {
@@ -561,18 +557,7 @@
       "name": "Attributes",
       "scope": ["entity.other.attribute-name"],
       "settings": {
-        "foreground": "#effffd52"
-      }
-    },
-    {
-      "name": "HTML Attributes",
-      "scope": [
-        "text.html.basic entity.other.attribute-name.html",
-        "text.html.basic entity.other.attribute-name"
-      ],
-      "settings": {
-        "fontStyle": "italic",
-        "foreground": "#FFCB6B"
+        "foreground": "#effffd58"
       }
     },
     /* StyleSheets (CSS, SASS, Stylus ...) */
@@ -607,7 +592,10 @@
     },
     {
       "name": "CSS Pseudo Selector",
-      "scope": ["entity.other.attribute-name.pseudo-element"],
+      "scope": [
+        "entity.other.attribute-name.pseudo-element",
+        "entity.other.attribute-name.pseudo-class"
+      ],
       "settings": {
         "fontStyle": "italic"
       }
@@ -695,7 +683,7 @@
         "markup.fenced_code.block.markdown"
       ],
       "settings": {
-        "foreground": "#effffd57",
+        "foreground": "#effffd58",
         "fontStyle": ""
       }
     },
@@ -738,7 +726,7 @@
       "name": "Escape Characters",
       "scope": ["constant.character.escape"],
       "settings": {
-        "foreground": "#effffd57"
+        "foreground": "#effffd58"
       }
     },
     {
