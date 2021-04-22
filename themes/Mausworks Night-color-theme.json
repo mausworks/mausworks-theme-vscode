@@ -102,7 +102,7 @@
     "tab.inactiveModifiedBorder": "#0000",
     "tab.unfocusedHoverBackground": "#080808",
     "tab.unfocusedInactiveBackground": "#080808",
-    "tab.unfocusedInactiveForeground": "#effffd66",
+    "tab.unfocusedInactiveForeground": "#effffd58",
     "tab.unfocusedHoverForeground": "#effffd",
     "tab.unfocusedActiveForeground": "#effffd",
     "tab.lastPinnedBorder": "#FF1F93",
@@ -110,7 +110,7 @@
     "tab.hoverForeground": "#effffd",
     "tab.inactiveBackground": "#0b0b0b",
     "tab.activeForeground": "#effffd",
-    "tab.inactiveForeground": "#effffd66",
+    "tab.inactiveForeground": "#effffd58",
     "editorGroupHeader.tabsBackground": "#080808",
     /* Quick input (CTRL+P) */
     "quickInput.background": "#080808",
@@ -489,7 +489,7 @@
         "storage.type"
       ],
       "settings": {
-        "foreground": "#effffd52"
+        "foreground": "#effffd58"
       }
     },
     {
@@ -514,7 +514,7 @@
         "meta.attribute punctuation.brackets"
       ],
       "settings": {
-        "foreground": "#effffd52"
+        "foreground": "#effffd58"
       }
     },
     {
