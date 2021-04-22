@@ -527,12 +527,11 @@
       }
     },
     {
-      "name": "String, Symbols, Inherited Class, Markup Heading",
+      "name": "String, Symbols, Markup Heading",
       "scope": [
         "string",
         "constant.other.symbol",
         "constant.other.key",
-        "entity.other.inherited-class",
         "markup.heading",
         "markup.inserted.git_gutter",
         "meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
@@ -548,6 +547,7 @@
         "support.type",
         "support.class",
         "meta.use.php",
+        "entity.other.inherited-class",
         "support.other.namespace.use.php",
         "support.other.namespace.php",
         "markup.changed.git_gutter",
