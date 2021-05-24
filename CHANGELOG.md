@@ -2,6 +2,18 @@
 
 All notable changes to the extension will be documented in this file.
 
+## [0.1.0]
+
+First field-tested minor release:
+
+- All languages: Self, this, super and base are now cyan and italic
+- Haskell: Most operators are now cyan (unlike other languages)
+- Haskell: Type definitions are green (like other languages)
+- Haskell: Parens and brackets are white (like other languages)
+- Rust (and other languages): Namespaces are now green
+- Rust: The mutable operator (mut) is now gray (but still italic)
+- JavaScript & TypeScript: The `in` and `of` keywords are now gray
+
 ## [0.0.5]
 
 - Touch up colorization HTML-like languages
