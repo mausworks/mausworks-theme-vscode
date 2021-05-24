@@ -1,9 +1,9 @@
 {
   "name": "mausworks-theme-vscode",
   "displayName": "Mausworks Theme",
-  "description": "A dark, colorful and tasty theme for VSCode",
+  "description": "A dark, colorful and spicy theme for VSCode",
   "publisher": "mausworks",
-  "version": "0.0.5",
+  "version": "0.1.0",
   "icon": "logo.png",
   "author": {
     "name": "Rasmus Wennerström",
