@@ -1,4 +1,4 @@
-A dark, colorful and tasty theme for VSCode.
+A dark, colorful and spicy theme for VSCode.
 
 ![Screenshot](./screenshot.png)
 
