@@ -503,9 +503,22 @@
       }
     },
     {
-      "name": "Super and self variables",
-      "scope": ["variable.language.super", "variable.language.self"],
+      "name": "Storage keywords (let, var, const, etc ...)",
+      "scope": ["storage.type"],
       "settings": {
+        "foreground": "#effffd58"
+      }
+    },
+    {
+      "name": "super, self, base, this",
+      "scope": [
+        "variable.language.super",
+        "variable.language.self",
+        "variable.language.base",
+        "variable.language.this"
+      ],
+      "settings": {
+        "foreground": "#5EE8D9",
         "fontStyle": "italic"
       }
     },
