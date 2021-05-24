@@ -527,7 +527,6 @@
       "name": "Mutable storage modifier (in e.g Rust)",
       "scope": "storage.modifier.mut",
       "settings": {
-        "foreground": "#5EE8D9",
         "fontStyle": "italic"
       }
     },
@@ -574,6 +573,7 @@
         "support.other.namespace.use.php",
         "support.other.namespace.php",
         "entity.name.namespace",
+        "keyword.operator.namespace",
         "markup.changed.git_gutter",
         "support.type.sys-types",
         "meta.function.type-declaration",
