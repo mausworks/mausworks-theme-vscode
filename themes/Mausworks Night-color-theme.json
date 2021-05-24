@@ -408,6 +408,18 @@
       }
     },
     {
+      "name": "Haskell arrow and infix operators",
+      "scope": [
+        "source.haskell keyword.operator.arrow",
+        "source.haskell keyword.operator.infix",
+        "source.haskell keyword.operator.double-colon",
+        "source.haskell keyword.operator.lambda"
+      ],
+      "settings": {
+        "foreground": "#5EE8D9"
+      }
+    },
+    {
       "name": "Function, Special Method",
       "scope": [
         "entity.name.function",
@@ -484,8 +496,7 @@
         "keyword.other.unit",
         "keyword.other",
         "keyword",
-        "storage.modifier",
-        "storage.type"
+        "storage.modifier"
       ],
       "settings": {
         "foreground": "#effffd58"
@@ -548,8 +559,13 @@
         "entity.other.inherited-class",
         "support.other.namespace.use.php",
         "support.other.namespace.php",
+        "entity.name.namespace",
         "markup.changed.git_gutter",
-        "support.type.sys-types"
+        "support.type.sys-types",
+        "meta.function.type-declaration",
+        "meta.declaration.data.algebraic",
+        "meta.declaration.type",
+        "storage.type.haskell"
       ],
       "settings": {
         "foreground": "#48F9BB"
