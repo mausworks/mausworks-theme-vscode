@@ -353,6 +353,8 @@
       "scope": [
         "punctuation.definition.arguments.begin",
         "punctuation.definition.arguments.end",
+        "punctuation.bracket",
+        "punctuation.paren",
         "meta.block"
       ],
       "settings": {
