@@ -6,9 +6,9 @@ A dark, colorful and tasty theme for VSCode.
 - Editor font: Cascadia Code
 - UI Font: Archivo
 
-Syntax highlighting tested for:
+Syntax highlighting field-tested for:
 
- - TypeScript and JavaScript
+ - TypeScript & JavaScript
  - Python
  - C#
  - JSON
@@ -18,3 +18,4 @@ Syntax highlighting tested for:
  - Rust
  - Markdown
  - shell script
+ - Haskell ([#10](https://github.com/mausworks/mausworks-theme-vscode/issues/10))
