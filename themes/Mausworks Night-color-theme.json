@@ -44,9 +44,9 @@
     "textCodeBlock.background": "#000",
     "textLink.activeForeground": "#5EE8D9",
     /* Find + selections */
-    "editor.selectionBackground": "#5EE8D944",
-    "editor.inactiveSelectionBackground": "#5EE8D944",
-    "editor.selectionHighlightBackground": "#5EE8D944",
+    "editor.selectionBackground": "#48F9BB44",
+    "editor.inactiveSelectionBackground": "#48F9BB44",
+    "editor.selectionHighlightBackground": "#48F9BB44",
     "editor.lineHighlightBackground": "#000",
     "editor.lineHighlightBorder": "#191919",
     "editor.selectionHighlightBorder": "#48F9BBe6",
