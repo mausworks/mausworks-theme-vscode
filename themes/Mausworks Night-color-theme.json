@@ -166,6 +166,8 @@
     "list.warningForeground": "#DEDA12",
     "list.filterMatchBackground": "#ffff2266",
     "list.filterMatchBorder": "#FFFF22",
+    "list.highlightForeground": "#48F9BBc0",
+    "list.focusHighlightForeground": "#48F9BB",
     "listFilterWidget.background": "#0000",
     "listFilterWidget.outline": "#48F9BB",
     "listFilterWidget.noMatchesOutline": "#BF0D24",
