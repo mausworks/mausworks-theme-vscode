@@ -123,9 +123,11 @@
     "editorGroupHeader.tabsBackground": "#080808",
     /* Quick input (CTRL+P) */
     "quickInput.background": "#080808",
-    "quickInput.foreground": "#f1f1f1",
+    "quickInput.foreground": "#effffdc9",
+    "quickInputList.focusForeground": "#effffd",
     "quickInputTitle.background": "#080808",
-    "quickInputList.focusBackground": "#effffd",
+    "quickInputList.focusBackground": "#48F9BB44",
+    "quickInputList.focusIconForeground": "#effffd",
     /* Drop-downs */
     "dropdown.background": "#080808",
     "dropdown.listBackground": "#080808",
