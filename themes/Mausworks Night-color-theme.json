@@ -119,7 +119,7 @@
     "tab.hoverForeground": "#effffd",
     "tab.inactiveBackground": "#0b0b0b",
     "tab.activeForeground": "#effffd",
-    "tab.inactiveForeground": "#effffd58",
+    "tab.inactiveForeground": "#effffdc9",
     "editorGroupHeader.tabsBackground": "#080808",
     /* Quick input (CTRL+P) */
     "quickInput.background": "#080808",
