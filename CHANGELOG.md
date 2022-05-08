@@ -2,6 +2,15 @@
 
 All notable changes to the extension will be documented in this file.
 
+## [0.2.0]
+
+- Unify some many choices, for example: Green is now used to denote selection
+- Support bracket colorization
+- Invert the debug widget: It's now black with magenta buttons instead of magenta with black buttons
+- Change button style: They are now bordered magenta buttons instead opaque yellow
+- Tone down version control decorations
+- … and various small improvements all around
+
 ## [0.1.0]
 
 First field-tested minor release:
