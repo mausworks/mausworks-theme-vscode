@@ -130,6 +130,9 @@
     "quickInputTitle.background": "#080808",
     "quickInputList.focusBackground": "#48F9BB44",
     "quickInputList.focusIconForeground": "#effffd",
+    /* Picker group (part of the quick input, for example "recently opened") */
+    "pickerGroup.foreground": "#FF1F93",
+    "pickerGroup.border": "#effffd22",
     /* Drop-downs */
     "dropdown.background": "#080808",
     "dropdown.listBackground": "#080808",
