@@ -461,6 +461,13 @@
       }
     },
     {
+      "name": "Expression operator (e.g. of/in)",
+      "scope": "keyword.operator.expression",
+      "settings": {
+        "foreground": "#effffd58"
+      }
+    },
+    {
       "name": "New operator",
       "scope": "keyword.operator.new",
       "settings": {
