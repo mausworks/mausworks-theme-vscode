@@ -2,6 +2,12 @@
   "name": "Mausworks - Night",
   "type": "dark",
   "colors": {
+    "editorBracketHighlight.foreground1": "#effffd80",
+    "editorBracketHighlight.foreground2": "#effffde9",
+    "editorBracketHighlight.foreground3": "#48F9BB",
+    "editorBracketHighlight.foreground4": "#4AB0F1",
+    "editorBracketHighlight.foreground5": "#FF1F93",
+    "editorBracketHighlight.foreground6": "#D448FF",
     "editor.background": "#080808",
     "editor.foreground": "#effffd",
     "editorCursor.foreground": "#DEDA12",
